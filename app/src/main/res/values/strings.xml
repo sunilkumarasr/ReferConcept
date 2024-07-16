@@ -2,6 +2,9 @@
     <string name="app_name">ReferConcept</string>
     <string name="splashnote">Every one can earn extra income</string>
     <string name="splashnote2">No Qualified, No Investment, No Timings</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="dummy_note">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Sed lobortis scelerisque diam, in hendrerit nulla. Quisque tortor lacus, rutrum sit amet viverra at, elementum vel metus. Etiam sed erat libero. Quisque rhoncus turpis vel sapien volutpat, in ultrices est auctor. Sed consectetur sodales odio at luctus. Nam lacus sem, fringilla in elit at, ornare scelerisque eros. Etiam ornare venenatis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis scelerisque diam, in hendrerit nulla. Quisque tortor lacus, rutrum sit amet viverra at, elementum vel metus. Etiam sed erat libero.
+        Quisque rhoncus turpis vel sapien volutpat, in ultrices est auctor.
+        Sed consectetur sodales odio at luctus. Nam lacus sem, fringilla in elit at, ornare scelerisque eros. Etiam ornare venenatis interdum.</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

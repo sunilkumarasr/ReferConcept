@@ -6,6 +6,7 @@
     android:background="@color/colorPrimary">
 
     <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgBack"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="15dp"
@@ -13,9 +14,11 @@
         android:src="@drawable/back_ic"/>
 
     <TextView
+        android:id="@+id/txtTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="14sp"
+        android:fontFamily="@font/outfit_medium"
+        android:textSize="15sp"
         android:textColor="@color/white"
         android:text="Title"
         android:layout_centerVertical="true"
