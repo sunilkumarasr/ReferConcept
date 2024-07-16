@@ -14,4 +14,6 @@
     <color name="statusBarBg">#4548B9</color>
     <color name="lightGreen">#E8FFEA</color>
     <color name="green">#508D0E</color>
+    <color name="box_border">#FFB87E</color>
+    <color name="box_gray">#f5f5f5</color>
 </resources>

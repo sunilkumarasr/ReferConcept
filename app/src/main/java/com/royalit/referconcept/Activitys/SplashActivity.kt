@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.royalit.referconcept.Logins.ForgotActivity
 import com.royalit.referconcept.Logins.LoginActivity
 import com.royalit.referconcept.R
 import com.royalit.referconcept.Utils.ViewController
@@ -28,5 +29,7 @@ class SplashActivity : AppCompatActivity() {
             startActivity(Intent(this@SplashActivity, LoginActivity::class.java))
         }
 
+
     }
+
 }
