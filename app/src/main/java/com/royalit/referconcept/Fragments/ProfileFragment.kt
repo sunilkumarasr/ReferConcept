@@ -36,8 +36,6 @@ class ProfileFragment : Fragment(), View.OnClickListener  {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-//        callEmiDetailsApi()
-//        callPendingInvoiceApi()
 
         init()
     }
