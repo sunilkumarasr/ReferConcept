@@ -58,18 +58,22 @@
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Enter your name"
+                    style="@style/MyDenseOutlined"
+                    app:hintEnabled="false"
                     app:boxBackgroundColor="@color/box_gray"
                     app:boxStrokeColor="@color/box_border"
-                    app:endIconDrawable="@drawable/profile_ic"
-                    android:fontFamily="@font/outfit_medium">
+                    android:fontFamily="@font/outfit_medium"
+                    app:boxStrokeWidth="0dp">
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/nameEdit"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:singleLine="true"
+                        android:hint="Enter your name"
+                        android:textColorHint="@color/hintcolor"
                         android:fontFamily="@font/outfit_medium"/>
                 </com.google.android.material.textfield.TextInputLayout>
-
 
                 <TextView
                     android:layout_width="match_parent"
@@ -83,18 +87,22 @@
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Enter mobile number"
+                    style="@style/MyDenseOutlined"
+                    app:hintEnabled="false"
                     app:boxBackgroundColor="@color/box_gray"
                     app:boxStrokeColor="@color/box_border"
-                    app:endIconDrawable="@drawable/profile_ic"
+                    app:boxStrokeWidth="0dp"
                     android:fontFamily="@font/outfit_medium">
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/mobileNumberEdit"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:singleLine="true"
+                        android:hint="Enter mobile number"
+                        android:textColorHint="@color/hintcolor"
                         android:fontFamily="@font/outfit_medium"/>
                 </com.google.android.material.textfield.TextInputLayout>
-
 
                 <TextView
                     android:layout_width="match_parent"
@@ -108,18 +116,22 @@
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Enter email address"
+                    style="@style/MyDenseOutlined"
+                    app:hintEnabled="false"
                     app:boxBackgroundColor="@color/box_gray"
                     app:boxStrokeColor="@color/box_border"
-                    app:endIconDrawable="@drawable/profile_ic"
+                    app:boxStrokeWidth="0dp"
                     android:fontFamily="@font/outfit_medium">
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/emailEdit"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:singleLine="true"
+                        android:hint="Enter email address"
+                        android:textColorHint="@color/hintcolor"
                         android:fontFamily="@font/outfit_medium"/>
                 </com.google.android.material.textfield.TextInputLayout>
-
 
                 <TextView
                     android:layout_width="match_parent"
@@ -133,15 +145,23 @@
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Enter your password"
+                    style="@style/MyDenseOutlined"
+                    app:hintEnabled="false"
                     app:boxBackgroundColor="@color/box_gray"
                     app:boxStrokeColor="@color/box_border"
-                    app:endIconDrawable="@drawable/profile_ic"
+                    app:endIconMode="password_toggle"
+                    app:endIconTint="@color/hintcolor"
+                    app:boxStrokeWidth="0dp"
                     android:fontFamily="@font/outfit_medium">
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/passwordEdit"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:singleLine="true"
+                        android:hint="Enter your password"
+                        android:textColorHint="@color/hintcolor"
+                        android:inputType="textPassword"
                         android:fontFamily="@font/outfit_medium"/>
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -157,19 +177,28 @@
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Enter confirm password"
+                    style="@style/MyDenseOutlined"
+                    app:hintEnabled="false"
                     app:boxBackgroundColor="@color/box_gray"
                     app:boxStrokeColor="@color/box_border"
-                    app:endIconDrawable="@drawable/profile_ic"
+                    app:endIconMode="password_toggle"
+                    app:endIconTint="@color/hintcolor"
+                    app:boxStrokeWidth="0dp"
                     android:fontFamily="@font/outfit_medium">
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/CpasswordEdit"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:singleLine="true"
+                        android:hint="Enter confirm password"
+                        android:textColorHint="@color/hintcolor"
+                        android:inputType="textPassword"
                         android:fontFamily="@font/outfit_medium"/>
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <RelativeLayout
+                    android:id="@+id/relisterRelative"
                     android:layout_width="200dp"
                     android:layout_height="45dp"
                     android:background="@drawable/round_button"
@@ -212,6 +241,7 @@
                         android:textColor="@color/colorPrimary"
                         android:textSize="14sp"
                         android:layout_gravity="center_horizontal"/>
+
                 </LinearLayout>
 
             </LinearLayout>

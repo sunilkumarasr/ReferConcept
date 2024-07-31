@@ -15,10 +15,22 @@
         <include
             layout="@layout/top_layout"/>
 
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/terms_and_conditions_banner_ic"
+            android:scaleType="fitXY"/>
+
+
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="50dp"
+            android:layout_below="@+id/banner"
             android:scrollbars="none">
             <LinearLayout
                 android:layout_width="match_parent"
@@ -26,12 +38,6 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginEnd="15dp"
                 android:orientation="vertical">
-                <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:src="@drawable/terms_and_conditions_banner_ic"
-                    android:scaleType="fitXY"/>
 
                 <TextView
                     android:id="@+id/txtNote"
@@ -39,8 +45,7 @@
                     android:layout_height="wrap_content"
                     android:padding="8dp"
                     android:fontFamily="@font/outfit_regular"
-                    android:textSize="17sp"
-                    android:text="@string/dummy_note"/>
+                    android:textSize="17sp" />
             </LinearLayout>
         </ScrollView>
 

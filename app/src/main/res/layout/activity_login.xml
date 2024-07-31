@@ -51,23 +51,28 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="35dp"
                     android:layout_marginBottom="5dp"
-                    android:text="Your email"
+                    android:text="Mobile Number"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     android:fontFamily="@font/outfit_regular"/>
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Enter your email"
+                    app:hintEnabled="false"
+                    style="@style/MyDenseOutlined"
                     app:boxBackgroundColor="@color/box_gray"
                     app:boxStrokeColor="@color/box_border"
-                    app:endIconDrawable="@drawable/profile_ic"
                     android:fontFamily="@font/outfit_medium"
-                    >
+                    app:boxStrokeWidth="0dp">
                     <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/emailEdit"
+                        android:id="@+id/mobileEdit"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:hint="Enter your mobile number"
+                        android:textColorHint="@color/hintcolor"
+                        android:inputType="phone"
+                        android:maxLength="10"
                         android:fontFamily="@font/outfit_medium"/>
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -83,16 +88,22 @@
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Enter your password"
+                    app:hintEnabled="false"
+                    style="@style/MyDenseOutlined"
+                    app:endIconMode="password_toggle"
+                    app:endIconTint="@color/hintcolor"
                     app:boxBackgroundColor="@color/box_gray"
                     app:boxStrokeColor="@color/box_border"
-                    app:endIconDrawable="@drawable/profile_ic"
                     android:fontFamily="@font/outfit_medium"
-                    >
+                    app:boxStrokeWidth="0dp">
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/passwordEdit"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:hint="Enter your password"
+                        android:textColorHint="@color/hintcolor"
+                        android:inputType="textPassword"
                         android:fontFamily="@font/outfit_medium"/>
                 </com.google.android.material.textfield.TextInputLayout>
 

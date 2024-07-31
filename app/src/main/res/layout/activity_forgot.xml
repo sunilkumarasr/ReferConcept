@@ -61,15 +61,20 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="25dp"
                     android:layout_marginEnd="25dp"
-                    android:hint="Enter your email"
+                    style="@style/MyDenseOutlined"
+                    app:hintEnabled="false"
                     app:boxBackgroundColor="@color/box_gray"
                     app:boxStrokeColor="@color/box_border"
-                    app:endIconDrawable="@drawable/profile_ic"
-                    android:fontFamily="@font/outfit_medium">
+                    android:fontFamily="@font/outfit_medium"
+                    app:boxStrokeWidth="0dp">
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/default_edit_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:textSize="15sp"
+                        android:hint="Enter your email"
+                        android:textColorHint="@color/hintcolor"
                         android:fontFamily="@font/outfit_medium"/>
                 </com.google.android.material.textfield.TextInputLayout>
 

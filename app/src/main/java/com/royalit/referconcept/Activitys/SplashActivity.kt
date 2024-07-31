@@ -26,7 +26,7 @@ class SplashActivity : AppCompatActivity() {
 
 
         binding.cardStart.setOnClickListener {
-            startActivity(Intent(this@SplashActivity, LoginActivity::class.java))
+            startActivity(Intent(this@SplashActivity, DashBoardActivity::class.java))
         }
 
 
