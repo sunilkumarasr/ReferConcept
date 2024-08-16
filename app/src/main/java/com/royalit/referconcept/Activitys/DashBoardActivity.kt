@@ -33,9 +33,6 @@ class DashBoardActivity : AppCompatActivity(), View.OnClickListener  {
     private val aboutFragment = AboutFragment()
     private val profileFragment = ProfileFragment()
 
-
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
@@ -107,5 +104,6 @@ class DashBoardActivity : AppCompatActivity(), View.OnClickListener  {
         finishAffinity()
 
     }
+
 
 }
